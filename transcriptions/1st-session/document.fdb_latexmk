@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1665742376 "/home/cs-arena/Documents/projects/DSA-SBU-fall-2022/transcriptions/1st-session/document.tex" "document.pdf" "document" 1665742376
+["pdflatex"] 1665762049 "/home/cs-arena/Documents/projects/DSA-SBU-fall-2022/transcriptions/1st-session/document.tex" "document.pdf" "document" 1665762050
   "../../assets/images/logo.jpg" 1663058856 70176 f0dda1c9e4dae531928f1787dfaac603 ""
   "/etc/texmf/web2c/texmf.cnf" 1662739860 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/cs-arena/Documents/projects/DSA-SBU-fall-2022/transcriptions/1st-session/document.tex" 1665742375 6630 77a27b9d83874ac19907ec8dbcd7bccd ""
+  "/home/cs-arena/Documents/projects/DSA-SBU-fall-2022/transcriptions/1st-session/document.tex" 1665762049 6633 a29506de255d9607c21705eb480df4ad ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -51,9 +51,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1662739897 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1662739922 2798986 799f449af00aa9bfa8be4267ce254d07 ""
-  "document.aux" 1665742376 1088 6d33556b2ea529c9046718d5c9cb54d0 "pdflatex"
-  "document.tex" 1665742375 6630 77a27b9d83874ac19907ec8dbcd7bccd ""
-  "document.toc" 1665742376 687 85cc63211476907d0644bb88a86262d0 "pdflatex"
+  "document.aux" 1665762050 1088 6d33556b2ea529c9046718d5c9cb54d0 "pdflatex"
+  "document.tex" 1665762049 6633 a29506de255d9607c21705eb480df4ad ""
+  "document.toc" 1665762050 687 85cc63211476907d0644bb88a86262d0 "pdflatex"
   (generated)
   "document.aux"
   "document.log"
