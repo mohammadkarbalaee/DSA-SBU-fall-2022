@@ -16,4 +16,104 @@
 	\maketitle
     \tableofcontents
 
+    \clearpage
+    \section{Different sorts of problem statement in algorithm theory}
+        \subsection{What is an algorithm?}
+            Algorithm is the method of solving an specific problem.
+        \subsection{Importance of problem categorization}
+            The definition of algorithm is mostly relied on what a problem is.
+            Therefore, knowing the exact definition of problem is vital to understand
+            what an algorithm is.
+            In theory of algorithms,only specific statements are valid and every problem
+            should get pigeonholed in on of the categories. There are four major problem sorts.
+            \subsubsection{Satisfaction Problems}
+                Problems in this category are stated in the following pattern. 
+
+
+                \emph{P(X) is a proposition in the predicate logic \footnote{Predicate logic in simple words means a logic system that
+                contains variables in its statements and is concerned with the existence of that variable not the value of the variable itself 
+                for example: ather than propositions such as "Socrates is a man", one can have expressions in the form "there exists x such that x is Socrates and x is a man", where "there exists" 
+                is a quantifier, while x is a variable.} and the question is wether there is an X that P(X)=True. } 
+
+
+                The algorithm which solves a satisfaction problem can only have two outputs, True or False.
+                It's crucial to know that in satisfaction problems, the algorithm is not concerned with 
+                finding the wanted X, but is focused on validating the existence of X. \\ \\ 
+                \underline{Example 1}
+                    \emph{Is 2 a prime number?} \\ \\ 
+                        In this example P is being prime number and X=2 \\ 
+                        This problem could be stated in other words too, which is still a satisfaction problem. \\ 
+                        \emph{Is P(X)=True by the given value X?} \\ \\
+                \underline{Example 2}
+                    \emph{Consider graph G with V as its vertex set and E as its edge set. Is there a path between s and t where \begin{math}
+                    s,t \in V \end{math}}
+            \subsubsection{Root finding Problems}
+                    Remember in the previous category the emphasis was on on the existence of X? \\ 
+                    In contrast with that, root finding problems are concerned with finding the X itself not checking wether it exists or not. \\ 
+                    Formally stating: 
+
+                    
+                    \emph{Find an X, if exists, such that P(X)=True} \\ \\ 
+                    \underline{Example }
+                        \emph{Consider graph G with V as its vertex set and E as its edge set. Find path between s and t such as 
+                        \begin{math}
+                        P=<v_1, v_2, v_3, ...., v_k>, k\in N \end{math} where \begin{math}
+                        s,t \in V \end{math}}
+            \subsubsection{Enumeration Problems}
+                    These problems aim to find all Xs that P(X)=True, not just one. Each enumeration problem can be 
+                    reduced to a root finding problem and root finding problems can be reduced to 
+                    a satisfaction problem if the working space is countable. \footnote{Problem reduction means, by having an algorithm that solves problem A,
+                    it's possible to come up with an algorithm that solves problem B, this way it is said that problem B is reduced to problem A.
+                    For example: To find all two-digit prime numbers, we should be able to firstly, find a prime number. So the first problem is 
+                    reduced to the second one.} \\ \\
+                    \underline{Example 1 }
+                        \emph{Find all two-digit prime numbers}
+            \subsubsection{Optimization Problems}
+                    Consider f as a function defined this way,
+                    \begin{math}
+                         f:S \Rightarrow R
+                    \end{math} and P(X) as a satisfiable proposition. \\ 
+                    Optimization problems are formed this way then: \\ 
+                    \emph{Find X such that f(X) reaches its minimum/maximum value and P(X)=True} \\ \\
+                    f: Object function \\
+                    P: constraints \\ \\
+
+                    \underline{Example }
+                        G(V,E) is a graph and w is an edge weighing function such as \begin{math}
+                            w: E\Rightarrow R
+                        \end{math}. \\ 
+                        For given s and t such that \begin{math}
+                            s,t \in V
+                        \end{math}, find the path with minimum total weight from s to t. \\ \\ 
+                        S: The space of all paths in G(V,E) \\
+                        \begin{math}
+                            X \in S, Path \in S \\ 
+                            f(x) = \sum_{i = 1}^{k} w(v_i,v_{i+1}) \\ 
+                            (v_i,v_{i+1}) \in Path \\ 
+                            P: v_1 = s,     v_k = t
+                        \end{math}
+
+            \clearpage
+
+    \section{Exercises}
+        Here are a couple exercises related to the subject of the first session. \\ \\ 
+        \emph{Categorize each problem into one of the four categories you learnt in this session.} \\ \\
+        1.Consider M as 3 by 5 matrix. Is M invertible? \\
+        2.Find an X such that \begin{math}
+            2x + 10 = 0
+        \end{math} \\ 
+        3.Find all divisors of 35. \\ 
+        4.All prime numbers are odd. \\ 
+        5.What is the fastest way to get from the dorm to the campus.
+        6.Consider V as a vector two-dimensional space. Find all vectors in V such as t that \begin{math}
+            t = <0,0>
+        \end{math} \\ 
+        \clearpage
+    \section{Solutions}
+        1.satisfaction problem \\ 
+        2.root finding problem \\ 
+        3.enumeration problem \\ 
+        4.satisfaction problem \\ 
+        5.Optimization problem \\ 
+        6.enumeration problem \\
 \end{document}

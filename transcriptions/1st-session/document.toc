@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Different sorts of problem statement in algorithm theory}{2}{}%
+\contentsline {subsection}{\numberline {1.1}What is an algorithm?}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Importance of problem categorization}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}Satisfaction Problems}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}Root finding Problems}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.3}Enumeration Problems}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.4}Optimization Problems}{2}{}%
+\contentsline {section}{\numberline {2}Exercises}{3}{}%
+\contentsline {section}{\numberline {3}Solutions}{4}{}%
